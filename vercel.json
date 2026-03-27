@@ -1,0 +1,5 @@
+{
+  "routes": [
+    { "src": "/", "dest": "/Velosta-Vendor-Marketing-Page.html" }
+  ]
+}
