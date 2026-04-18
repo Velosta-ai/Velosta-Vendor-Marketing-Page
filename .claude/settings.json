@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/saivikas/Desktop/Velosta/Velosta-Vendor-Marketing-Page log --all --oneline -- index.html Velosta-Vendor-Marketing-Page.html)"
+    ]
+  }
+}
