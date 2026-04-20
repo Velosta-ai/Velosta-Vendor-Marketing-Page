@@ -400,7 +400,19 @@
                     <li>Crash logs and diagnostic events to keep the app stable</li>
                 </ul>
 
-                <h3>(e) Payments &amp; subscription</h3>
+                <h3>(e) Device permissions we request</h3>
+                <p>The app requests the following Android runtime permissions. Where a permission is optional, you may decline without losing core functionality:</p>
+                <table>
+                    <tr><th>Permission</th><th>Purpose</th><th>Required?</th></tr>
+                    <tr><td><strong>Camera</strong></td><td>Take before/after inspection photos of vehicles at delivery and return</td><td>Optional — you may use gallery upload instead</td></tr>
+                    <tr><td><strong>Read/Write External Storage</strong></td><td>Select vehicle and document images from your photo gallery; save generated receipts and booking PDFs to your device</td><td>Optional</td></tr>
+                    <tr><td><strong>Internet</strong></td><td>Sync account data, vehicle catalogue, bookings and subscription status with Velosta servers</td><td>Required</td></tr>
+                    <tr><td><strong>Vibrate</strong></td><td>Provide haptic feedback for notifications</td><td>Required</td></tr>
+                    <tr><td><strong>Record Audio</strong></td><td>Declared by an Expo SDK dependency. The Velosta Vendor app does <strong>not</strong> record audio or access the microphone. No audio data is ever captured or transmitted.</td><td>Not used — system-declared by SDK</td></tr>
+                    <tr><td><strong>System Alert Window</strong></td><td>Declared by the Expo runtime for overlay support on certain Android versions. Not actively used by app features.</td><td>Not used — system-declared</td></tr>
+                </table>
+
+                <h3>(f) Payments &amp; subscription</h3>
                 <ul>
                     <li>Subscription plan, billing email, GSTIN for invoices, transaction reference IDs</li>
                     <li>We do <strong>not</strong> store full card numbers, CVVs or UPI PINs — these are handled by RBI-licensed payment gateways</li>
