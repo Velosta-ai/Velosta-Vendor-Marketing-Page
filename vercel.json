@@ -1,5 +1,7 @@
 {
-  "routes": [
-    { "src": "/", "dest": "/Velosta-Vendor-Marketing-Page.html" }
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/Velosta-Vendor-Marketing-Page.html" }
+
   ]
 }
