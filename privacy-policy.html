@@ -349,7 +349,6 @@
                     <tr><td>Product name</td><td>Velosta Vendor</td></tr>
                     <tr><td>Team</td><td>Velosta — an India-based product team</td></tr>
                     <tr><td>Country of operation</td><td>India</td></tr>
-                    <tr><td>Correspondence address</td><td>Flat Maple-60605, Indu Fortune Fields Gardenia, Phase 13, Kukatpally Housing Board Road, Kukatpally, Hyderabad, Telangana 500085, India</td></tr>
                     <tr><td>Contact</td><td><a href="mailto:support@velosta.com">support@velosta.com</a> &middot; <a href="https://wa.me/917673988839" target="_blank" rel="noopener noreferrer">+91 76739 88839</a></td></tr>
                 </table>
 
@@ -385,28 +384,21 @@
                 </ul>
 
                 <h3>(e) Device permissions we request</h3>
-                <p>The app requests the following Android runtime permissions. Where a permission is optional, you may decline without losing core functionality:</p>
+                <p>The app requests the following device permissions. Where a permission is optional, you may decline without losing core functionality:</p>
                 <table>
                     <tr><th>Permission</th><th>Purpose</th><th>Required?</th></tr>
-                    <tr><td><strong>Camera</strong></td><td>Take before/after inspection photos of vehicles at delivery and return</td><td>Optional — you may use gallery upload instead</td></tr>
-                    <tr><td><strong>Read/Write External Storage</strong></td><td>Select vehicle and document images from your photo gallery; save generated receipts and booking PDFs to your device</td><td>Optional</td></tr>
-                    <tr><td><strong>Internet</strong></td><td>Sync account data, vehicle catalogue, bookings and subscription status with Velosta servers</td><td>Required</td></tr>
-                    <tr><td><strong>Vibrate</strong></td><td>Provide haptic feedback for notifications</td><td>Required</td></tr>
+                    <tr><td><strong>Camera</strong></td><td>Photograph vehicle documents (RC, insurance, PUC), capture customer ID at booking, and take vehicle condition photos at delivery and return</td><td>Optional — you may use gallery upload instead</td></tr>
+                    <tr><td><strong>Photo Library (read)</strong></td><td>Attach existing photos from your gallery to a booking or vehicle — e.g. a saved RC card image or profile picture</td><td>Optional</td></tr>
+                    <tr><td><strong>Photo Library (save)</strong></td><td>Save captured customer ID photos to a private album on your device so they stay on-phone and are never uploaded</td><td>Optional</td></tr>
+                    <tr><td><strong>Internet</strong></td><td>Sync account data, vehicle catalogue and bookings with Velosta servers</td><td>Required</td></tr>
                 </table>
-
-                <h3>(f) Payments &amp; subscription</h3>
-                <ul>
-                    <li>Subscription plan, billing email, GSTIN for invoices, transaction reference IDs</li>
-                    <li>We do <strong>not</strong> store full card numbers, CVVs or UPI PINs — these are handled by RBI-licensed payment gateways</li>
-                    <li>Where required, we may collect KYC documents (e.g. PAN, GSTIN) from you for invoicing and taxation under the GST regime</li>
-                </ul>
 
                 <h2 id="use"><span class="num">03</span> How We Use Your Data</h2>
                 <p>We use the data described above to:</p>
                 <ol class="legal">
-                    <li>Provide, operate and improve the Service — including managing vehicles, bookings, payments, reports and messaging (customer records stay on your device);</li>
+                    <li>Provide, operate and improve the Service — including managing vehicles, bookings, reports and messaging (customer records stay on your device);</li>
                     <li>Authenticate you and prevent unauthorised access to your account;</li>
-                    <li>Send transactional communications (booking confirmations, return reminders, invoices, OTPs);</li>
+                    <li>Send transactional communications (booking confirmations, return reminders, OTPs);</li>
                     <li>Power safety features such as the <strong>Global Block Alert</strong> — where vendors can flag customers for misconduct (theft, damage, non-payment) so other genuine vendors are warned;</li>
                     <li>Comply with applicable Indian laws, including responding to lawful orders from courts, police or government authorities;</li>
                     <li>Communicate product updates, feature releases and (with your consent) marketing offers — you may opt out anytime;</li>
@@ -424,7 +416,7 @@
                 <h2 id="sharing"><span class="num">05</span> Data Sharing &amp; Disclosure</h2>
                 <p>We do <strong>not</strong> sell your personal data. We share data only in the following limited circumstances:</p>
                 <ul>
-                    <li><strong>Service providers (Data Processors):</strong> cloud hosting (e.g. AWS Mumbai region, Google Cloud Mumbai), SMS and WhatsApp delivery partners, payment gateways and analytics tools — all bound by contractual data protection obligations;</li>
+                    <li><strong>Service providers (Data Processors):</strong> cloud hosting (e.g. AWS Mumbai region, Google Cloud Mumbai), SMS and WhatsApp delivery partners, and analytics tools — all bound by contractual data protection obligations;</li>
                     <li><strong>Within the vendor community (Global Block Alert):</strong> if you — as a vendor — choose to raise a Global Block Alert against a customer for genuine misconduct (theft, damage, non-payment), only the customer's mobile number and your stated reason are shared with other Velosta vendors during a future booking attempt. No other customer detail (name, photo, ID, address) ever leaves your device. You are responsible for raising flags in good faith;</li>
                     <li><strong>Legal &amp; regulatory:</strong> in response to lawful requests from Indian government authorities, courts, the Data Protection Board of India, or where required to protect rights, life, property or safety;</li>
                     <li><strong>Corporate transactions:</strong> in the event of a merger, acquisition or transfer of business, with notice to you as required by law.</li>
@@ -443,7 +435,7 @@
                 <table>
                     <tr><th>Data type</th><th>Retention</th></tr>
                     <tr><td>Active vendor account data</td><td>For the lifetime of the account</td></tr>
-                    <tr><td>Booking &amp; transaction records</td><td>8 years from the date of transaction (Income-tax Act, 1961 &amp; CGST Act, 2017)</td></tr>
+                    <tr><td>Booking records</td><td>Up to 3 years from the date of the booking, or longer if required by applicable law</td></tr>
                     <tr><td>App diagnostics &amp; logs</td><td>Up to 90 days</td></tr>
                     <tr><td>Closed accounts (post deletion)</td><td>Backups purged within 90 days, except where law requires longer retention</td></tr>
                 </table>
